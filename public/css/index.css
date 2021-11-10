@@ -5,20 +5,15 @@
     align-items: center;
     padding: 30px 0;
 }
-@media (min-width: 768px) {
-    .hero {
-        height: 80vh;
-    }
-    .hero-info-box {
-        width: 40vw;
-    }
-}
 .hero img{
     border-radius: 50%;
-    width: 290px;
+    width: 200px;
 }
 .hero p{
     font-size: 1.5rem;
+}
+figure {
+    margin-top: 40px;
 }
 .cta-row {
     display: flex;
@@ -40,4 +35,16 @@
 }
 .cta-button:hover {
     transform: scale(1.1) translate(10px);
+}
+@media (min-width: 768px) {
+    .hero {
+        height: 80vh;
+    }
+    .hero-info-box {
+        width: 40vw;
+    }
+    .hero img{
+        border-radius: 50%;
+        width: 280px;
+    }
 }
