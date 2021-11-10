@@ -29,7 +29,7 @@ h1 {
 h2 {
   font-family: var(--global-heading-font-family);
   color: var(--global-palette1);
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding: 15px 0;
 }
 p {
